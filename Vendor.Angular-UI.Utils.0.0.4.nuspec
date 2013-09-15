@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Vendor.Angular-UI.Utils</id>
+        <version>0.0.4</version>
+        <authors>https://github.com/angular-ui/ui-utils/graphs/contributors</authors>
+        <licenseUrl>http://www.opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>http://angular-ui.github.com</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Swiss-Army-Knife of AngularJS tools</description>
+        <summary>Include only those modules you need</summary>
+        <dependencies>
+            <dependency id="Vendor.Angular" version="1.0.8" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="vendor\angular-ui-utils\demo\demo.js" target="content\Vendor\angular-ui-utils\demo\demo.js" />
+        <file src="vendor\angular-ui-utils\modules\event\demo\index.html" target="content\Vendor\angular-ui-utils\modules\event\demo\index.html" />
+        <file src="vendor\angular-ui-utils\modules\event\test\eventSpec.js" target="content\Vendor\angular-ui-utils\modules\event\test\eventSpec.js" />
+        <file src="vendor\angular-ui-utils\modules\event\event.js" target="content\Vendor\angular-ui-utils\modules\event\event.js" />
+        <file src="vendor\angular-ui-utils\modules\format\demo\index.html" target="content\Vendor\angular-ui-utils\modules\format\demo\index.html" />
+        <file src="vendor\angular-ui-utils\modules\format\test\formatSpec.js" target="content\Vendor\angular-ui-utils\modules\format\test\formatSpec.js" />
+        <file src="vendor\angular-ui-utils\modules\format\format.js" target="content\Vendor\angular-ui-utils\modules\format\format.js" />
+        <file src="vendor\angular-ui-utils\modules\highlight\demo\index.html" target="content\Vendor\angular-ui-utils\modules\highlight\demo\index.html" />
+        <file src="vendor\angular-ui-utils\modules\highlight\test\highlightSpec.js" target="content\Vendor\angular-ui-utils\modules\highlight\test\highlightSpec.js" />
+        <file src="vendor\angular-ui-utils\modules\highlight\highlight.js" target="content\Vendor\angular-ui-utils\modules\highlight\highlight.js" />
+        <file src="vendor\angular-ui-utils\modules\highlight\highlight.less" target="content\Vendor\angular-ui-utils\modules\highlight\highlight.less" />
+        <file src="vendor\angular-ui-utils\modules\ie-shiv\ie-shiv.js" target="content\Vendor\angular-ui-utils\modules\ie-shiv\ie-shiv.js" />
+        <file src="vendor\angular-ui-utils\modules\ie-shiv\README.md" target="content\Vendor\angular-ui-utils\modules\ie-shiv\README.md" />
+        <file src="vendor\angular-ui-utils\modules\indeterminate\demo\index.html" target="content\Vendor\angular-ui-utils\modules\indeterminate\demo\index.html" />
+        <file src="vendor\angular-ui-utils\modules\indeterminate\test\indeterminateSpec.js" target="content\Vendor\angular-ui-utils\modules\indeterminate\test\indeterminateSpec.js" />
+        <file src="vendor\angular-ui-utils\modules\indeterminate\indeterminate.js" target="content\Vendor\angular-ui-utils\modules\indeterminate\indeterminate.js" />
+        <file src="vendor\angular-ui-utils\modules\inflector\demo\index.html" target="content\Vendor\angular-ui-utils\modules\inflector\demo\index.html" />
+        <file src="vendor\angular-ui-utils\modules\inflector\test\inflectorSpec.js" target="content\Vendor\angular-ui-utils\modules\inflector\test\inflectorSpec.js" />
+        <file src="vendor\angular-ui-utils\modules\inflector\inflector.js" target="content\Vendor\angular-ui-utils\modules\inflector\inflector.js" />
+        <file src="vendor\angular-ui-utils\modules\jq\demo\index.html" target="content\Vendor\angular-ui-utils\modules\jq\demo\index.html" />
+        <file src="vendor\angular-ui-utils\modules\jq\test\jqSpec.js" target="content\Vendor\angular-ui-utils\modules\jq\test\jqSpec.js" />
+        <file src="vendor\angular-ui-utils\modules\jq\jq.js" target="content\Vendor\angular-ui-utils\modules\jq\jq.js" />
+        <file src="vendor\angular-ui-utils\modules\jq\README.md" target="content\Vendor\angular-ui-utils\modules\jq\README.md" />
+        <file src="vendor\angular-ui-utils\modules\keypress\demo\index.html" target="content\Vendor\angular-ui-utils\modules\keypress\demo\index.html" />
+        <file src="vendor\angular-ui-utils\modules\keypress\test\keydownSpec.js" target="content\Vendor\angular-ui-utils\modules\keypress\test\keydownSpec.js" />
+        <file src="vendor\angular-ui-utils\modules\keypress\test\keypressSpec.js" target="content\Vendor\angular-ui-utils\modules\keypress\test\keypressSpec.js" />
+        <file src="vendor\angular-ui-utils\modules\keypress\test\keyupSpec.js" target="content\Vendor\angular-ui-utils\modules\keypress\test\keyupSpec.js" />
+        <file src="vendor\angular-ui-utils\modules\keypress\keypress.js" target="content\Vendor\angular-ui-utils\modules\keypress\keypress.js" />
+        <file src="vendor\angular-ui-utils\modules\mask\demo\index.html" target="content\Vendor\angular-ui-utils\modules\mask\demo\index.html" />
+        <file src="vendor\angular-ui-utils\modules\mask\test\maskSpec.js" target="content\Vendor\angular-ui-utils\modules\mask\test\maskSpec.js" />
+        <file src="vendor\angular-ui-utils\modules\mask\mask.js" target="content\Vendor\angular-ui-utils\modules\mask\mask.js" />
+        <file src="vendor\angular-ui-utils\modules\reset\demo\index.html" target="content\Vendor\angular-ui-utils\modules\reset\demo\index.html" />
+        <file src="vendor\angular-ui-utils\modules\reset\stylesheets\reset.less" target="content\Vendor\angular-ui-utils\modules\reset\stylesheets\reset.less" />
+        <file src="vendor\angular-ui-utils\modules\reset\test\resetSpec.js" target="content\Vendor\angular-ui-utils\modules\reset\test\resetSpec.js" />
+        <file src="vendor\angular-ui-utils\modules\reset\reset.js" target="content\Vendor\angular-ui-utils\modules\reset\reset.js" />
+        <file src="vendor\angular-ui-utils\modules\route\demo\index.html" target="content\Vendor\angular-ui-utils\modules\route\demo\index.html" />
+        <file src="vendor\angular-ui-utils\modules\route\test\routeSpec.js" target="content\Vendor\angular-ui-utils\modules\route\test\routeSpec.js" />
+        <file src="vendor\angular-ui-utils\modules\route\route.js" target="content\Vendor\angular-ui-utils\modules\route\route.js" />
+        <file src="vendor\angular-ui-utils\modules\scrollfix\demo\index.html" target="content\Vendor\angular-ui-utils\modules\scrollfix\demo\index.html" />
+        <file src="vendor\angular-ui-utils\modules\scrollfix\test\scrollfixSpec.js" target="content\Vendor\angular-ui-utils\modules\scrollfix\test\scrollfixSpec.js" />
+        <file src="vendor\angular-ui-utils\modules\scrollfix\scrollfix.js" target="content\Vendor\angular-ui-utils\modules\scrollfix\scrollfix.js" />
+        <file src="vendor\angular-ui-utils\modules\showhide\demo\index.html" target="content\Vendor\angular-ui-utils\modules\showhide\demo\index.html" />
+        <file src="vendor\angular-ui-utils\modules\showhide\test\showhideSpec.js" target="content\Vendor\angular-ui-utils\modules\showhide\test\showhideSpec.js" />
+        <file src="vendor\angular-ui-utils\modules\showhide\showhide.js" target="content\Vendor\angular-ui-utils\modules\showhide\showhide.js" />
+        <file src="vendor\angular-ui-utils\modules\unique\demo\index.html" target="content\Vendor\angular-ui-utils\modules\unique\demo\index.html" />
+        <file src="vendor\angular-ui-utils\modules\unique\test\uniqueSpec.js" target="content\Vendor\angular-ui-utils\modules\unique\test\uniqueSpec.js" />
+        <file src="vendor\angular-ui-utils\modules\unique\unique.js" target="content\Vendor\angular-ui-utils\modules\unique\unique.js" />
+        <file src="vendor\angular-ui-utils\modules\validate\demo\index.html" target="content\Vendor\angular-ui-utils\modules\validate\demo\index.html" />
+        <file src="vendor\angular-ui-utils\modules\validate\test\validateSpec.js" target="content\Vendor\angular-ui-utils\modules\validate\test\validateSpec.js" />
+        <file src="vendor\angular-ui-utils\modules\validate\validate.js" target="content\Vendor\angular-ui-utils\modules\validate\validate.js" />
+        <file src="vendor\angular-ui-utils\modules\utils.js" target="content\Vendor\angular-ui-utils\modules\utils.js" />
+        <file src="vendor\angular-ui-utils\test\karma.conf.js" target="content\Vendor\angular-ui-utils\test\karma.conf.js" />
+        <file src="vendor\angular-ui-utils\.bower.json" target="content\Vendor\angular-ui-utils\.bower.json" />
+        <file src="vendor\angular-ui-utils\.gitignore" target="content\Vendor\angular-ui-utils\.gitignore" />
+        <file src="vendor\angular-ui-utils\.travis.yml" target="content\Vendor\angular-ui-utils\.travis.yml" />
+        <file src="vendor\angular-ui-utils\bower.json" target="content\Vendor\angular-ui-utils\bower.json" />
+        <file src="vendor\angular-ui-utils\CONTRIBUTING.md" target="content\Vendor\angular-ui-utils\CONTRIBUTING.md" />
+        <file src="vendor\angular-ui-utils\gruntFile.js" target="content\Vendor\angular-ui-utils\gruntFile.js" />
+        <file src="vendor\angular-ui-utils\LICENSE" target="content\Vendor\angular-ui-utils\LICENSE" />
+        <file src="vendor\angular-ui-utils\package.json" target="content\Vendor\angular-ui-utils\package.json" />
+        <file src="vendor\angular-ui-utils\README.md" target="content\Vendor\angular-ui-utils\README.md" />
+    </files>
+</package>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Vendor.Angular-UI.Bootstrap</id>
+        <version>0.6.0</version>
+        <authors>https://github.com/angular-ui/bootstrap/graphs/contributors</authors>
+        <projectUrl>https://github.com/angular-ui/bootstrap/</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Twitter bootstrap completely re-written using angular directives</description>
+        <summary>Main:
+./ui-bootstrap-tpls.js</summary>
+        <dependencies>
+            <dependency id="Vendor.Angular" version="1.0.8" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="vendor\angular-bootstrap\.bower.json" target="content\Vendor\angular-bootstrap\.bower.json" />
+        <file src="vendor\angular-bootstrap\bower.json" target="content\Vendor\angular-bootstrap\bower.json" />
+        <file src="vendor\angular-bootstrap\ui-bootstrap-tpls.js" target="content\Vendor\angular-bootstrap\ui-bootstrap-tpls.js" />
+        <file src="vendor\angular-bootstrap\ui-bootstrap-tpls.min.js" target="content\Vendor\angular-bootstrap\ui-bootstrap-tpls.min.js" />
+        <file src="vendor\angular-bootstrap\ui-bootstrap.js" target="content\Vendor\angular-bootstrap\ui-bootstrap.js" />
+        <file src="vendor\angular-bootstrap\ui-bootstrap.min.js" target="content\Vendor\angular-bootstrap\ui-bootstrap.min.js" />
+    </files>
+</package>

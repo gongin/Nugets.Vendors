@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Vendor.JQuery</id>
+        <version>2.0.3</version>
+        <authors>JQuery</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>jQuery component</description>
+        <summary />
+        <tags>JQuery</tags>
+    </metadata>
+    <files>
+        <file src="vendor\jquery\component.json" target="content\Vendor\jquery\component.json" />
+        <file src="vendor\jquery\composer.json" target="content\Vendor\jquery\composer.json" />
+        <file src="vendor\jquery\jquery-migrate.js" target="content\Vendor\jquery\jquery-migrate.js" />
+        <file src="vendor\jquery\jquery-migrate.min.js" target="content\Vendor\jquery\jquery-migrate.min.js" />
+        <file src="vendor\jquery\jquery.js" target="content\Vendor\jquery\jquery.js" />
+        <file src="vendor\jquery\jquery.min.js" target="content\Vendor\jquery\jquery.min.js" />
+        <file src="vendor\jquery\jquery.min.map" target="content\Vendor\jquery\jquery.min.map" />
+        <file src="vendor\jquery\package.json" target="content\Vendor\jquery\package.json" />
+        <file src="vendor\jquery\README.md" target="content\Vendor\jquery\README.md" />
+    </files>
+</package>

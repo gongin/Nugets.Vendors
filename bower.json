@@ -1,0 +1,26 @@
+{
+  "name": "Nugets.Vendors",
+  "version": "1.0.0",
+  "authors": [
+    "Joshua Caudill <gonginnospam@gmail.com>"
+  ],
+  "description": "Bower Vendor builds packaged into individual Nugets",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "1.0.8",
+    "angular-ui-router": "0.2.0",
+    "bootstrap": "3.0.0",
+    "angular-ui-utils": "0.0.4",
+    "angular-bootstrap": "0.6.0",
+    "angular-mocks": "1.0.8",
+    "font-awesome": "3.2.1"
+  }
+}

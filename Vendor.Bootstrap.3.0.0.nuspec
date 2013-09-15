@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Vendor.Bootstrap</id>
+        <version>3.0.0</version>
+        <authors>Twitter Inc.</authors>
+        <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+        <projectUrl>https://github.com/twbs/</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Sleek, intuitive, and powerful front-end framework for faster and easier web development.</description>
+        <summary>Main: 
+./dist/js/bootstrap.js
+./dist/css/bootstrap.css</summary>
+        <dependencies>
+            <dependency id="Vendor.JQuery" version="2.0.3" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="vendor\bootstrap\assets\css\docs.css" target="content\Vendor\bootstrap\assets\css\docs.css" />
+        <file src="vendor\bootstrap\assets\css\pygments-manni.css" target="content\Vendor\bootstrap\assets\css\pygments-manni.css" />
+        <file src="vendor\bootstrap\assets\ico\apple-touch-icon-114-precomposed.png" target="content\Vendor\bootstrap\assets\ico\apple-touch-icon-114-precomposed.png" />
+        <file src="vendor\bootstrap\assets\ico\apple-touch-icon-144-precomposed.png" target="content\Vendor\bootstrap\assets\ico\apple-touch-icon-144-precomposed.png" />
+        <file src="vendor\bootstrap\assets\ico\apple-touch-icon-57-precomposed.png" target="content\Vendor\bootstrap\assets\ico\apple-touch-icon-57-precomposed.png" />
+        <file src="vendor\bootstrap\assets\ico\apple-touch-icon-72-precomposed.png" target="content\Vendor\bootstrap\assets\ico\apple-touch-icon-72-precomposed.png" />
+        <file src="vendor\bootstrap\assets\ico\favicon.png" target="content\Vendor\bootstrap\assets\ico\favicon.png" />
+        <file src="vendor\bootstrap\assets\js\application.js" target="content\Vendor\bootstrap\assets\js\application.js" />
+        <file src="vendor\bootstrap\assets\js\customizer.js" target="content\Vendor\bootstrap\assets\js\customizer.js" />
+        <file src="vendor\bootstrap\assets\js\filesaver.js" target="content\Vendor\bootstrap\assets\js\filesaver.js" />
+        <file src="vendor\bootstrap\assets\js\holder.js" target="content\Vendor\bootstrap\assets\js\holder.js" />
+        <file src="vendor\bootstrap\assets\js\html5shiv.js" target="content\Vendor\bootstrap\assets\js\html5shiv.js" />
+        <file src="vendor\bootstrap\assets\js\jquery.js" target="content\Vendor\bootstrap\assets\js\jquery.js" />
+        <file src="vendor\bootstrap\assets\js\jszip.js" target="content\Vendor\bootstrap\assets\js\jszip.js" />
+        <file src="vendor\bootstrap\assets\js\less.js" target="content\Vendor\bootstrap\assets\js\less.js" />
+        <file src="vendor\bootstrap\assets\js\raw-files.js" target="content\Vendor\bootstrap\assets\js\raw-files.js" />
+        <file src="vendor\bootstrap\assets\js\respond.min.js" target="content\Vendor\bootstrap\assets\js\respond.min.js" />
+        <file src="vendor\bootstrap\assets\js\uglify.js" target="content\Vendor\bootstrap\assets\js\uglify.js" />
+        <file src="vendor\bootstrap\dist\css\bootstrap-theme.css" target="content\Vendor\bootstrap\dist\css\bootstrap-theme.css" />
+        <file src="vendor\bootstrap\dist\css\bootstrap-theme.min.css" target="content\Vendor\bootstrap\dist\css\bootstrap-theme.min.css" />
+        <file src="vendor\bootstrap\dist\css\bootstrap.css" target="content\Vendor\bootstrap\dist\css\bootstrap.css" />
+        <file src="vendor\bootstrap\dist\css\bootstrap.min.css" target="content\Vendor\bootstrap\dist\css\bootstrap.min.css" />
+        <file src="vendor\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" target="content\Vendor\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" />
+        <file src="vendor\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" target="content\Vendor\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" />
+        <file src="vendor\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" target="content\Vendor\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" />
+        <file src="vendor\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" target="content\Vendor\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" />
+        <file src="vendor\bootstrap\dist\js\bootstrap.js" target="content\Vendor\bootstrap\dist\js\bootstrap.js" />
+        <file src="vendor\bootstrap\dist\js\bootstrap.min.js" target="content\Vendor\bootstrap\dist\js\bootstrap.min.js" />
+        <file src="vendor\bootstrap\examples\carousel\carousel.css" target="content\Vendor\bootstrap\examples\carousel\carousel.css" />
+        <file src="vendor\bootstrap\examples\carousel\index.html" target="content\Vendor\bootstrap\examples\carousel\index.html" />
+        <file src="vendor\bootstrap\examples\grid\grid.css" target="content\Vendor\bootstrap\examples\grid\grid.css" />
+        <file src="vendor\bootstrap\examples\grid\index.html" target="content\Vendor\bootstrap\examples\grid\index.html" />
+        <file src="vendor\bootstrap\examples\jumbotron\index.html" target="content\Vendor\bootstrap\examples\jumbotron\index.html" />
+        <file src="vendor\bootstrap\examples\jumbotron\jumbotron.css" target="content\Vendor\bootstrap\examples\jumbotron\jumbotron.css" />
+        <file src="vendor\bootstrap\examples\jumbotron-narrow\index.html" target="content\Vendor\bootstrap\examples\jumbotron-narrow\index.html" />
+        <file src="vendor\bootstrap\examples\jumbotron-narrow\jumbotron-narrow.css" target="content\Vendor\bootstrap\examples\jumbotron-narrow\jumbotron-narrow.css" />
+        <file src="vendor\bootstrap\examples\justified-nav\index.html" target="content\Vendor\bootstrap\examples\justified-nav\index.html" />
+        <file src="vendor\bootstrap\examples\justified-nav\justified-nav.css" target="content\Vendor\bootstrap\examples\justified-nav\justified-nav.css" />
+        <file src="vendor\bootstrap\examples\navbar\index.html" target="content\Vendor\bootstrap\examples\navbar\index.html" />
+        <file src="vendor\bootstrap\examples\navbar\navbar.css" target="content\Vendor\bootstrap\examples\navbar\navbar.css" />
+        <file src="vendor\bootstrap\examples\navbar-fixed-top\index.html" target="content\Vendor\bootstrap\examples\navbar-fixed-top\index.html" />
+        <file src="vendor\bootstrap\examples\navbar-fixed-top\navbar-fixed-top.css" target="content\Vendor\bootstrap\examples\navbar-fixed-top\navbar-fixed-top.css" />
+        <file src="vendor\bootstrap\examples\navbar-static-top\index.html" target="content\Vendor\bootstrap\examples\navbar-static-top\index.html" />
+        <file src="vendor\bootstrap\examples\navbar-static-top\navbar-static-top.css" target="content\Vendor\bootstrap\examples\navbar-static-top\navbar-static-top.css" />
+        <file src="vendor\bootstrap\examples\non-responsive\index.html" target="content\Vendor\bootstrap\examples\non-responsive\index.html" />
+        <file src="vendor\bootstrap\examples\non-responsive\non-responsive.css" target="content\Vendor\bootstrap\examples\non-responsive\non-responsive.css" />
+        <file src="vendor\bootstrap\examples\offcanvas\index.html" target="content\Vendor\bootstrap\examples\offcanvas\index.html" />
+        <file src="vendor\bootstrap\examples\offcanvas\offcanvas.css" target="content\Vendor\bootstrap\examples\offcanvas\offcanvas.css" />
+        <file src="vendor\bootstrap\examples\offcanvas\offcanvas.js" target="content\Vendor\bootstrap\examples\offcanvas\offcanvas.js" />
+        <file src="vendor\bootstrap\examples\screenshots\carousel.jpg" target="content\Vendor\bootstrap\examples\screenshots\carousel.jpg" />
+        <file src="vendor\bootstrap\examples\screenshots\grid.jpg" target="content\Vendor\bootstrap\examples\screenshots\grid.jpg" />
+        <file src="vendor\bootstrap\examples\screenshots\jumbotron-narrow.jpg" target="content\Vendor\bootstrap\examples\screenshots\jumbotron-narrow.jpg" />
+        <file src="vendor\bootstrap\examples\screenshots\jumbotron.jpg" target="content\Vendor\bootstrap\examples\screenshots\jumbotron.jpg" />
+        <file src="vendor\bootstrap\examples\screenshots\justified-nav.jpg" target="content\Vendor\bootstrap\examples\screenshots\justified-nav.jpg" />
+        <file src="vendor\bootstrap\examples\screenshots\navbar-fixed.jpg" target="content\Vendor\bootstrap\examples\screenshots\navbar-fixed.jpg" />
+        <file src="vendor\bootstrap\examples\screenshots\navbar-static.jpg" target="content\Vendor\bootstrap\examples\screenshots\navbar-static.jpg" />
+        <file src="vendor\bootstrap\examples\screenshots\navbar.jpg" target="content\Vendor\bootstrap\examples\screenshots\navbar.jpg" />
+        <file src="vendor\bootstrap\examples\screenshots\non-responsive.jpg" target="content\Vendor\bootstrap\examples\screenshots\non-responsive.jpg" />
+        <file src="vendor\bootstrap\examples\screenshots\offcanvas.jpg" target="content\Vendor\bootstrap\examples\screenshots\offcanvas.jpg" />
+        <file src="vendor\bootstrap\examples\screenshots\sign-in.jpg" target="content\Vendor\bootstrap\examples\screenshots\sign-in.jpg" />
+        <file src="vendor\bootstrap\examples\screenshots\starter-template.jpg" target="content\Vendor\bootstrap\examples\screenshots\starter-template.jpg" />
+        <file src="vendor\bootstrap\examples\screenshots\sticky-footer-navbar.jpg" target="content\Vendor\bootstrap\examples\screenshots\sticky-footer-navbar.jpg" />
+        <file src="vendor\bootstrap\examples\screenshots\sticky-footer.jpg" target="content\Vendor\bootstrap\examples\screenshots\sticky-footer.jpg" />
+        <file src="vendor\bootstrap\examples\screenshots\theme.jpg" target="content\Vendor\bootstrap\examples\screenshots\theme.jpg" />
+        <file src="vendor\bootstrap\examples\signin\index.html" target="content\Vendor\bootstrap\examples\signin\index.html" />
+        <file src="vendor\bootstrap\examples\signin\signin.css" target="content\Vendor\bootstrap\examples\signin\signin.css" />
+        <file src="vendor\bootstrap\examples\starter-template\index.html" target="content\Vendor\bootstrap\examples\starter-template\index.html" />
+        <file src="vendor\bootstrap\examples\starter-template\starter-template.css" target="content\Vendor\bootstrap\examples\starter-template\starter-template.css" />
+        <file src="vendor\bootstrap\examples\sticky-footer\index.html" target="content\Vendor\bootstrap\examples\sticky-footer\index.html" />
+        <file src="vendor\bootstrap\examples\sticky-footer\sticky-footer.css" target="content\Vendor\bootstrap\examples\sticky-footer\sticky-footer.css" />
+        <file src="vendor\bootstrap\examples\sticky-footer-navbar\index.html" target="content\Vendor\bootstrap\examples\sticky-footer-navbar\index.html" />
+        <file src="vendor\bootstrap\examples\sticky-footer-navbar\sticky-footer-navbar.css" target="content\Vendor\bootstrap\examples\sticky-footer-navbar\sticky-footer-navbar.css" />
+        <file src="vendor\bootstrap\examples\theme\index.html" target="content\Vendor\bootstrap\examples\theme\index.html" />
+        <file src="vendor\bootstrap\examples\theme\theme.css" target="content\Vendor\bootstrap\examples\theme\theme.css" />
+        <file src="vendor\bootstrap\fonts\glyphicons-halflings-regular.eot" target="content\Vendor\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+        <file src="vendor\bootstrap\fonts\glyphicons-halflings-regular.svg" target="content\Vendor\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+        <file src="vendor\bootstrap\fonts\glyphicons-halflings-regular.ttf" target="content\Vendor\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+        <file src="vendor\bootstrap\fonts\glyphicons-halflings-regular.woff" target="content\Vendor\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+        <file src="vendor\bootstrap\js\tests\unit\affix.js" target="content\Vendor\bootstrap\js\tests\unit\affix.js" />
+        <file src="vendor\bootstrap\js\tests\unit\alert.js" target="content\Vendor\bootstrap\js\tests\unit\alert.js" />
+        <file src="vendor\bootstrap\js\tests\unit\button.js" target="content\Vendor\bootstrap\js\tests\unit\button.js" />
+        <file src="vendor\bootstrap\js\tests\unit\carousel.js" target="content\Vendor\bootstrap\js\tests\unit\carousel.js" />
+        <file src="vendor\bootstrap\js\tests\unit\collapse.js" target="content\Vendor\bootstrap\js\tests\unit\collapse.js" />
+        <file src="vendor\bootstrap\js\tests\unit\dropdown.js" target="content\Vendor\bootstrap\js\tests\unit\dropdown.js" />
+        <file src="vendor\bootstrap\js\tests\unit\modal.js" target="content\Vendor\bootstrap\js\tests\unit\modal.js" />
+        <file src="vendor\bootstrap\js\tests\unit\phantom.js" target="content\Vendor\bootstrap\js\tests\unit\phantom.js" />
+        <file src="vendor\bootstrap\js\tests\unit\popover.js" target="content\Vendor\bootstrap\js\tests\unit\popover.js" />
+        <file src="vendor\bootstrap\js\tests\unit\scrollspy.js" target="content\Vendor\bootstrap\js\tests\unit\scrollspy.js" />
+        <file src="vendor\bootstrap\js\tests\unit\tab.js" target="content\Vendor\bootstrap\js\tests\unit\tab.js" />
+        <file src="vendor\bootstrap\js\tests\unit\tooltip.js" target="content\Vendor\bootstrap\js\tests\unit\tooltip.js" />
+        <file src="vendor\bootstrap\js\tests\unit\transition.js" target="content\Vendor\bootstrap\js\tests\unit\transition.js" />
+        <file src="vendor\bootstrap\js\tests\vendor\jquery.js" target="content\Vendor\bootstrap\js\tests\vendor\jquery.js" />
+        <file src="vendor\bootstrap\js\tests\vendor\qunit.css" target="content\Vendor\bootstrap\js\tests\vendor\qunit.css" />
+        <file src="vendor\bootstrap\js\tests\vendor\qunit.js" target="content\Vendor\bootstrap\js\tests\vendor\qunit.js" />
+        <file src="vendor\bootstrap\js\tests\index.html" target="content\Vendor\bootstrap\js\tests\index.html" />
+        <file src="vendor\bootstrap\js\tests\phantom.js" target="content\Vendor\bootstrap\js\tests\phantom.js" />
+        <file src="vendor\bootstrap\js\tests\server.js" target="content\Vendor\bootstrap\js\tests\server.js" />
+        <file src="vendor\bootstrap\js\affix.js" target="content\Vendor\bootstrap\js\affix.js" />
+        <file src="vendor\bootstrap\js\alert.js" target="content\Vendor\bootstrap\js\alert.js" />
+        <file src="vendor\bootstrap\js\button.js" target="content\Vendor\bootstrap\js\button.js" />
+        <file src="vendor\bootstrap\js\carousel.js" target="content\Vendor\bootstrap\js\carousel.js" />
+        <file src="vendor\bootstrap\js\collapse.js" target="content\Vendor\bootstrap\js\collapse.js" />
+        <file src="vendor\bootstrap\js\dropdown.js" target="content\Vendor\bootstrap\js\dropdown.js" />
+        <file src="vendor\bootstrap\js\modal.js" target="content\Vendor\bootstrap\js\modal.js" />
+        <file src="vendor\bootstrap\js\popover.js" target="content\Vendor\bootstrap\js\popover.js" />
+        <file src="vendor\bootstrap\js\scrollspy.js" target="content\Vendor\bootstrap\js\scrollspy.js" />
+        <file src="vendor\bootstrap\js\tab.js" target="content\Vendor\bootstrap\js\tab.js" />
+        <file src="vendor\bootstrap\js\tooltip.js" target="content\Vendor\bootstrap\js\tooltip.js" />
+        <file src="vendor\bootstrap\js\transition.js" target="content\Vendor\bootstrap\js\transition.js" />
+        <file src="vendor\bootstrap\less\alerts.less" target="content\Vendor\bootstrap\less\alerts.less" />
+        <file src="vendor\bootstrap\less\badges.less" target="content\Vendor\bootstrap\less\badges.less" />
+        <file src="vendor\bootstrap\less\bootstrap.less" target="content\Vendor\bootstrap\less\bootstrap.less" />
+        <file src="vendor\bootstrap\less\breadcrumbs.less" target="content\Vendor\bootstrap\less\breadcrumbs.less" />
+        <file src="vendor\bootstrap\less\button-groups.less" target="content\Vendor\bootstrap\less\button-groups.less" />
+        <file src="vendor\bootstrap\less\buttons.less" target="content\Vendor\bootstrap\less\buttons.less" />
+        <file src="vendor\bootstrap\less\carousel.less" target="content\Vendor\bootstrap\less\carousel.less" />
+        <file src="vendor\bootstrap\less\close.less" target="content\Vendor\bootstrap\less\close.less" />
+        <file src="vendor\bootstrap\less\code.less" target="content\Vendor\bootstrap\less\code.less" />
+        <file src="vendor\bootstrap\less\component-animations.less" target="content\Vendor\bootstrap\less\component-animations.less" />
+        <file src="vendor\bootstrap\less\dropdowns.less" target="content\Vendor\bootstrap\less\dropdowns.less" />
+        <file src="vendor\bootstrap\less\forms.less" target="content\Vendor\bootstrap\less\forms.less" />
+        <file src="vendor\bootstrap\less\glyphicons.less" target="content\Vendor\bootstrap\less\glyphicons.less" />
+        <file src="vendor\bootstrap\less\grid.less" target="content\Vendor\bootstrap\less\grid.less" />
+        <file src="vendor\bootstrap\less\input-groups.less" target="content\Vendor\bootstrap\less\input-groups.less" />
+        <file src="vendor\bootstrap\less\jumbotron.less" target="content\Vendor\bootstrap\less\jumbotron.less" />
+        <file src="vendor\bootstrap\less\labels.less" target="content\Vendor\bootstrap\less\labels.less" />
+        <file src="vendor\bootstrap\less\list-group.less" target="content\Vendor\bootstrap\less\list-group.less" />
+        <file src="vendor\bootstrap\less\media.less" target="content\Vendor\bootstrap\less\media.less" />
+        <file src="vendor\bootstrap\less\mixins.less" target="content\Vendor\bootstrap\less\mixins.less" />
+        <file src="vendor\bootstrap\less\modals.less" target="content\Vendor\bootstrap\less\modals.less" />
+        <file src="vendor\bootstrap\less\navbar.less" target="content\Vendor\bootstrap\less\navbar.less" />
+        <file src="vendor\bootstrap\less\navs.less" target="content\Vendor\bootstrap\less\navs.less" />
+        <file src="vendor\bootstrap\less\normalize.less" target="content\Vendor\bootstrap\less\normalize.less" />
+        <file src="vendor\bootstrap\less\pager.less" target="content\Vendor\bootstrap\less\pager.less" />
+        <file src="vendor\bootstrap\less\pagination.less" target="content\Vendor\bootstrap\less\pagination.less" />
+        <file src="vendor\bootstrap\less\panels.less" target="content\Vendor\bootstrap\less\panels.less" />
+        <file src="vendor\bootstrap\less\popovers.less" target="content\Vendor\bootstrap\less\popovers.less" />
+        <file src="vendor\bootstrap\less\print.less" target="content\Vendor\bootstrap\less\print.less" />
+        <file src="vendor\bootstrap\less\progress-bars.less" target="content\Vendor\bootstrap\less\progress-bars.less" />
+        <file src="vendor\bootstrap\less\responsive-utilities.less" target="content\Vendor\bootstrap\less\responsive-utilities.less" />
+        <file src="vendor\bootstrap\less\scaffolding.less" target="content\Vendor\bootstrap\less\scaffolding.less" />
+        <file src="vendor\bootstrap\less\tables.less" target="content\Vendor\bootstrap\less\tables.less" />
+        <file src="vendor\bootstrap\less\theme.less" target="content\Vendor\bootstrap\less\theme.less" />
+        <file src="vendor\bootstrap\less\thumbnails.less" target="content\Vendor\bootstrap\less\thumbnails.less" />
+        <file src="vendor\bootstrap\less\tooltip.less" target="content\Vendor\bootstrap\less\tooltip.less" />
+        <file src="vendor\bootstrap\less\type.less" target="content\Vendor\bootstrap\less\type.less" />
+        <file src="vendor\bootstrap\less\utilities.less" target="content\Vendor\bootstrap\less\utilities.less" />
+        <file src="vendor\bootstrap\less\variables.less" target="content\Vendor\bootstrap\less\variables.less" />
+        <file src="vendor\bootstrap\less\wells.less" target="content\Vendor\bootstrap\less\wells.less" />
+        <file src="vendor\bootstrap\_includes\ads.html" target="content\Vendor\bootstrap\_includes\ads.html" />
+        <file src="vendor\bootstrap\_includes\footer.html" target="content\Vendor\bootstrap\_includes\footer.html" />
+        <file src="vendor\bootstrap\_includes\header.html" target="content\Vendor\bootstrap\_includes\header.html" />
+        <file src="vendor\bootstrap\_includes\nav-components.html" target="content\Vendor\bootstrap\_includes\nav-components.html" />
+        <file src="vendor\bootstrap\_includes\nav-css.html" target="content\Vendor\bootstrap\_includes\nav-css.html" />
+        <file src="vendor\bootstrap\_includes\nav-customize.html" target="content\Vendor\bootstrap\_includes\nav-customize.html" />
+        <file src="vendor\bootstrap\_includes\nav-getting-started.html" target="content\Vendor\bootstrap\_includes\nav-getting-started.html" />
+        <file src="vendor\bootstrap\_includes\nav-javascript.html" target="content\Vendor\bootstrap\_includes\nav-javascript.html" />
+        <file src="vendor\bootstrap\_includes\nav-main.html" target="content\Vendor\bootstrap\_includes\nav-main.html" />
+        <file src="vendor\bootstrap\_includes\old-bs-docs.html" target="content\Vendor\bootstrap\_includes\old-bs-docs.html" />
+        <file src="vendor\bootstrap\_includes\social-buttons.html" target="content\Vendor\bootstrap\_includes\social-buttons.html" />
+        <file src="vendor\bootstrap\_layouts\default.html" target="content\Vendor\bootstrap\_layouts\default.html" />
+        <file src="vendor\bootstrap\_layouts\home.html" target="content\Vendor\bootstrap\_layouts\home.html" />
+        <file src="vendor\bootstrap\.bower.json" target="content\Vendor\bootstrap\.bower.json" />
+        <file src="vendor\bootstrap\bower.json" target="content\Vendor\bootstrap\bower.json" />
+        <file src="vendor\bootstrap\browserstack.json" target="content\Vendor\bootstrap\browserstack.json" />
+        <file src="vendor\bootstrap\CNAME" target="content\Vendor\bootstrap\CNAME" />
+        <file src="vendor\bootstrap\components.html" target="content\Vendor\bootstrap\components.html" />
+        <file src="vendor\bootstrap\composer.json" target="content\Vendor\bootstrap\composer.json" />
+        <file src="vendor\bootstrap\CONTRIBUTING.md" target="content\Vendor\bootstrap\CONTRIBUTING.md" />
+        <file src="vendor\bootstrap\css.html" target="content\Vendor\bootstrap\css.html" />
+        <file src="vendor\bootstrap\customize.html" target="content\Vendor\bootstrap\customize.html" />
+        <file src="vendor\bootstrap\getting-started.html" target="content\Vendor\bootstrap\getting-started.html" />
+        <file src="vendor\bootstrap\Gruntfile.js" target="content\Vendor\bootstrap\Gruntfile.js" />
+        <file src="vendor\bootstrap\index.html" target="content\Vendor\bootstrap\index.html" />
+        <file src="vendor\bootstrap\javascript.html" target="content\Vendor\bootstrap\javascript.html" />
+        <file src="vendor\bootstrap\LICENSE" target="content\Vendor\bootstrap\LICENSE" />
+        <file src="vendor\bootstrap\package.json" target="content\Vendor\bootstrap\package.json" />
+        <file src="vendor\bootstrap\README.md" target="content\Vendor\bootstrap\README.md" />
+        <file src="vendor\bootstrap\_config.yml" target="content\Vendor\bootstrap\_config.yml" />
+    </files>
+</package>

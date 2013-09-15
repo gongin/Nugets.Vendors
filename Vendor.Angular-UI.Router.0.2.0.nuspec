@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Vendor.Angular-UI.Router</id>
+        <version>0.2.0</version>
+        <authors>Karsten Sperling</authors>
+        <licenseUrl>https://github.com/angular-ui/ui-router/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/angular-ui/</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>State-based routing for AngularJS</description>
+        <dependencies>
+            <dependency id="Vendor.Angular" version="1.0.8" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="vendor\angular-ui-router\release\doc\scripts\prettify\Apache-License-2.0.txt" target="content\Vendor\angular-ui-router\doc\scripts\prettify\Apache-License-2.0.txt" />
+        <file src="vendor\angular-ui-router\release\doc\scripts\prettify\lang-css.js" target="content\Vendor\angular-ui-router\doc\scripts\prettify\lang-css.js" />
+        <file src="vendor\angular-ui-router\release\doc\scripts\prettify\prettify.js" target="content\Vendor\angular-ui-router\doc\scripts\prettify\prettify.js" />
+        <file src="vendor\angular-ui-router\release\doc\styles\jsdoc-default.css" target="content\Vendor\angular-ui-router\doc\styles\jsdoc-default.css" />
+        <file src="vendor\angular-ui-router\release\doc\styles\prettify-jsdoc.css" target="content\Vendor\angular-ui-router\doc\styles\prettify-jsdoc.css" />
+        <file src="vendor\angular-ui-router\release\doc\styles\prettify-tomorrow.css" target="content\Vendor\angular-ui-router\doc\styles\prettify-tomorrow.css" />
+        <file src="vendor\angular-ui-router\release\doc\$resolve.html" target="content\Vendor\angular-ui-router\doc\$resolve.html" />
+        <file src="vendor\angular-ui-router\release\doc\$templateFactory.html" target="content\Vendor\angular-ui-router\doc\$templateFactory.html" />
+        <file src="vendor\angular-ui-router\release\doc\$urlMatcherFactory.html" target="content\Vendor\angular-ui-router\doc\$urlMatcherFactory.html" />
+        <file src="vendor\angular-ui-router\release\doc\global.html" target="content\Vendor\angular-ui-router\doc\global.html" />
+        <file src="vendor\angular-ui-router\release\doc\index.html" target="content\Vendor\angular-ui-router\doc\index.html" />
+        <file src="vendor\angular-ui-router\release\doc\UrlMatcher.html" target="content\Vendor\angular-ui-router\doc\UrlMatcher.html" />
+        <file src="vendor\angular-ui-router\release\angular-ui-router.js" target="content\Vendor\angular-ui-router\angular-ui-router.js" />
+        <file src="vendor\angular-ui-router\release\angular-ui-router.min.js" target="content\Vendor\angular-ui-router\angular-ui-router.min.js" />
+        <file src="vendor\angular-ui-router\LICENSE" target="content\Vendor\angular-ui-router\LICENSE" />
+    </files>
+</package>
